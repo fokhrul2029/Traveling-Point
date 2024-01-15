@@ -183,6 +183,39 @@ nav ul a {
 .destination-section {
   padding: 50px 0;
 }
+.destination-section p {
+  max-width: 643px;
+  margin: 0 auto ;
+  padding: 24px 0 48px 0;
+}
+.destination {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 15px;
+}
+
+.destination div img {
+  height: 100%;
+}
+.destination div:nth-child(1),
+.destination div:nth-child(2) {
+  grid-column: span 6;
+}
+.destination div:nth-child(3) {
+  grid-column: span 4;
+}
+.destination div:nth-child(4) {
+  grid-column: span 5;
+}
+.destination div:nth-child(5) {
+  grid-column: span 3;
+}
+.destination div:nth-child(6) {
+  grid-column: span 5;
+}
+.destination div:nth-child(7) {
+  grid-column: span 7;
+}
 /* About Section  */
 
 /* Deals & Discounts  */
@@ -228,13 +261,13 @@ footer p {
   padding: 15px 0 30px 0;
 }
 footer .social-icons {
-  display: flex ;
-  justify-content: center ;
-  align-items: center ;
-  gap: 40px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 footer .social-icons a {
-  font-size: 30px ;
+  font-size: 30px;
   color: #131318;
 }
 footer .social-icons a:hover {
@@ -242,6 +275,6 @@ footer .social-icons a:hover {
 }
 footer hr {
   width: 100%;
-  margin: 50px 0 ;
-  border: 1px solid  rgba(19, 19, 24, 0.082);
+  margin: 50px 0;
+  border: 1px solid rgba(19, 19, 24, 0.082);
 }
