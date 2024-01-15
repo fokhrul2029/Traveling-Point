@@ -165,7 +165,7 @@ nav ul a {
   padding: 12px 0;
 }
 .popular ul {
-  padding-left: 10px ;
+  padding-left: 10px;
 }
 .popular ul li {
   color: rgba(19, 19, 24, 0.7);
@@ -174,8 +174,74 @@ nav ul a {
   padding: 8px 0;
 }
 .popular .btn {
-  margin-top: 20px ;
+  margin-top: 20px;
 }
 .popular .img {
   flex-basis: 100%;
+}
+/* Destination Section  */
+.destination-section {
+  padding: 50px 0;
+}
+/* About Section  */
+
+/* Deals & Discounts  */
+
+/* Place Section */
+
+/* Newsletter Section  */
+
+/* Footer Content  */
+footer {
+  margin-top: 50px;
+  padding: 110px 0 110px 0;
+  background: rgba(19, 19, 24, 0.05);
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+footer .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+footer .logo img {
+  width: 40px;
+}
+footer .logo h1 {
+  color: #131318;
+  font-size: 32px;
+  font-weight: 800;
+}
+footer p {
+  max-width: 769px;
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 0 30px 0;
+}
+footer .social-icons {
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  gap: 40px ;
+}
+footer .social-icons a {
+  font-size: 30px ;
+  color: #131318;
+}
+footer .social-icons a:hover {
+  color: #131318d3;
+}
+footer hr {
+  width: 100%;
+  margin: 50px 0 ;
+  border: 1px solid  rgba(19, 19, 24, 0.082);
 }
