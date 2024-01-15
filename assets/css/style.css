@@ -148,3 +148,34 @@ nav ul a {
   border: none;
   color: rgba(19, 19, 24, 0.5);
 }
+/* Popular Section  */
+.popular-section {
+  padding: 100px 0 50px 0;
+}
+.popular {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.popular .title {
+  text-align: left;
+}
+.popular .pera {
+  text-align: left;
+  padding: 12px 0;
+}
+.popular ul {
+  padding-left: 10px ;
+}
+.popular ul li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 0;
+}
+.popular .btn {
+  margin-top: 20px ;
+}
+.popular .img {
+  flex-basis: 100%;
+}
