@@ -19,7 +19,7 @@ img {
   width: 100%;
 }
 .container {
-  max-width: 992px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 /* Primary styles  */
@@ -57,4 +57,42 @@ img {
   font-size: 40px;
   font-weight: 800;
 }
+.active {
+  color: #ff5400;
+  font-weight: 700px;
+}
 /* Header / Nav Styles */
+nav {
+  padding: 50px 0;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+nav .logo h1 {
+  font-size: 36px;
+  color: #131318;
+  font-weight: 800;
+}
+nav .logo img {
+  width: 48px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 44px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul a {
+  font-size: 18px;
+  color: #424247;
+}
