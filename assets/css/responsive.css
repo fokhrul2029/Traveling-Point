@@ -1,6 +1,11 @@
 /* Responsive styles for medium Device  */
 @media screen and (max-width: 992px) {
-  
+  nav ul {
+    display: none ;
+  }
+  nav i {
+    display: block ;
+  }
 }
 /* Responsive Styles for Small Device  */
 @media screen and (max-width: 600px) {
