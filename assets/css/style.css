@@ -384,7 +384,78 @@ nav ul a {
   margin-top: 16px;
 }
 /* Newsletter Section  */
-
+.newsletter-section {
+  padding: 50px 0;
+}
+.newsletter-section .newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.newsletter-section form {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px 40px;
+}
+.newsletter-section h2 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.newsletter-section p {
+  max-width: 350px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 0 24px 0;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+  margin-bottom: 8px;
+}
+.newsletter-section input {
+  padding: 16px 20px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  display: block;
+  width: 100%;
+  margin: 16px 0;
+  border: 1px solid transparent;
+  outline: none;
+}
+.newsletter-section .btn {
+  background-color: #ff5400;
+  margin-top: 32px;
+}
+.newsletter-section .btn:hover {
+  background-color: transparent;
+}
+.newsletter-section .img {
+  max-width: 672px;
+  position: relative;
+}
+.newsletter-section .discount {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 16px;
+  background: #ff5400;
+  padding: 20px 30px;
+  transform: rotate(-19deg);
+  transform-origin: left;
+  color: #fff;
+  text-align: center;
+}
+.newsletter-section .discount span {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+.newsletter-section .discount h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
 /* Footer Content  */
 footer {
   margin-top: 50px;
