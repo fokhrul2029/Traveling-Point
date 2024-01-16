@@ -45,6 +45,16 @@
   .destination div {
     grid-column: span 1 !important;
   }
+  /* About Section's Styles  */
+  .about-section .card {
+    width: 100%;
+  }
+  /* Deals Section Styles  */
+  .deals-section .deals {
+    padding: 190px 20px 20px;
+    display: flex;
+    justify-content: center !important;
+  }
 }
 /* Responsive Styles for Small Device  */
 @media screen and (max-width: 600px) {
