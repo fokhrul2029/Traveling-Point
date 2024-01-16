@@ -268,6 +268,83 @@ nav ul a {
   font-weight: 400;
 }
 /* Deals & Discounts  */
+.deals-section {
+  padding: 50px 0;
+}
+.deals-section .pera {
+  max-width: 643px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+.deals-section .deals {
+  padding: 55px 55px;
+  background-image: url("../img/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 25px;
+}
+.deals-section .deals:nth-child(even) {
+  background-image: url("../img/Group\ 40.png");
+}
+.deals-section .deals:nth-child(odd) {
+  background-image: url("../img/Group\ 39.png");
+  display: flex;
+  justify-content: end ;
+}
+
+.deals-section .card {
+  padding: 50px 50px;
+  max-width: 579px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+}
+.deals-section .card:hover {
+  backdrop-filter: blur(2.5px);
+}
+.deals-section .card-details {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-weight: 400;
+}
+.deals-section .card-details i {
+  color: #ff5400;
+  font-size: 18px;
+  margin-right: 8px;
+}
+.deals-section .card-details span {
+  color: #5a5a5d;
+  font-size: 16px;
+}
+.deals-section .card-title {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 16px 0 26px 0;
+}
+.deals-section .card-pera {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.deals-section .card-price {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 16px 0 24px 0;
+  display: block;
+}
 
 /* Place Section */
 
