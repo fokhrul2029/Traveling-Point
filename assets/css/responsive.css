@@ -55,6 +55,27 @@
     display: flex;
     justify-content: center !important;
   }
+  /* Place Section Styles  */
+  .place-section .place {
+    flex-direction: column;
+  }
+  .place-section .place div {
+    flex-basis: auto;
+  }
+  /* Newsletter Section Styles  */
+  .newsletter-section .newsletter {
+    flex-direction: column;
+  }
+  .newsletter-section form {
+    width: 100%;
+  }
+  /* Footer Styles  */
+  footer {
+    padding: 50px 0 0 0;
+  }
+  footer hr {
+    margin-bottom: 10px;
+  }
 }
 /* Responsive Styles for Small Device  */
 @media screen and (max-width: 600px) {
