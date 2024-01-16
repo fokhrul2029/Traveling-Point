@@ -412,6 +412,74 @@ nav ul a {
 .place-section .btn {
   margin-top: 16px;
 }
+/* Memory Lane Styles  */
+.memory-section {
+  padding: 50px 0;
+}
+.memory-section .pera {
+  max-width: 643px;
+  margin: 0 auto;
+  padding: 20px 0 40px 0;
+}
+.memory-section .memory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(53, 53, 53, 0.164);
+  margin: 15px 0;
+}
+.memory-section .memory:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.memory-section .memory-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.memory-section .memory-content i {
+  color: #ff5400;
+}
+.memory-section .memory-content h1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.memory-section .users {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  font-size: 21px;
+}
+.memory-section .comments {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  font-size: 20px;
+  color: #000000a9;
+}
+.memory-section .comments p {
+  max-width: 400px;
+}
+.memory-section .times {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.memory-section .times span {
+  color: rgba(0, 0, 0, 0.452);
+  font-size: 15px;
+}
+.memory-section .img {
+  flex-basis: 50%;
+}
+
 /* Newsletter Section  */
 .newsletter-section {
   padding: 50px 0;
