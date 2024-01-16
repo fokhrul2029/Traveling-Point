@@ -1,5 +1,5 @@
 /* Responsive styles for medium Device  */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   /* Primary Styles  */
   .title {
     font-size: 30px;
