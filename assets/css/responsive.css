@@ -1,5 +1,9 @@
 /* Responsive styles for medium Device  */
 @media screen and (max-width: 992px) {
+  /* Primary Styles  */
+  .title {
+    font-size: 30px;
+  }
   /* Navigation Styles  */
   nav ul {
     display: none;
@@ -44,6 +48,10 @@
 }
 /* Responsive Styles for Small Device  */
 @media screen and (max-width: 600px) {
+  /* Primary Styles  */
+  .title {
+    font-size: 20px;
+  }
   /* Destination Styles  */
   .destination div {
     grid-column: span 2 !important;
