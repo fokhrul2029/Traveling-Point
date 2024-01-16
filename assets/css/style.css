@@ -185,7 +185,7 @@ nav ul a {
 }
 .destination-section p {
   max-width: 643px;
-  margin: 0 auto ;
+  margin: 0 auto;
   padding: 24px 0 48px 0;
 }
 .destination {
@@ -217,7 +217,56 @@ nav ul a {
   grid-column: span 7;
 }
 /* About Section  */
-
+.about-section {
+  padding: 50px 0;
+}
+.about-section .pera {
+  max-width: 643px;
+  padding: 25px 0;
+  margin: 0 auto;
+}
+.about-section .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.about-section .card {
+  width: calc(50% - 24px);
+}
+.about-section .card {
+  padding: 32px;
+}
+.about-section .card:nth-child(1) {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.about-section .card:nth-child(2) {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.about-section .card:nth-child(3) {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.about-section .card-img {
+  width: 64px;
+}
+.about-section .card-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 32px 0 16px 0;
+}
+.about-section .card p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
 /* Deals & Discounts  */
 
 /* Place Section */
