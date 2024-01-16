@@ -83,6 +83,22 @@ nav .logo h1 {
 nav .logo img {
   width: 48px;
 }
+nav i {
+  font-size: 26px;
+  color: #ff5400;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-weight: 800;
+  padding: 5px 10px;
+  border: 1px solid #ff5400;
+  border-radius: 5px;
+  display: none;
+}
+nav i:hover {
+  background: #ff5400;
+  color: #fff;
+  border: 1px solid #ff5400;
+}
 nav ul {
   display: flex;
   justify-content: space-between;
