@@ -349,7 +349,40 @@ nav ul a {
   display: block;
 }
 /* Place Section */
-
+.place-section {
+  padding: 50px 0;
+}
+.place-section .place {
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+}
+.place-section .place div {
+  flex-basis: 50%;
+}
+.place-section h1 {
+  text-align: left;
+}
+.place-section p {
+  color: #5a5a5d;
+  font-size: 16px;
+  padding: 24px 0 12px 0;
+}
+.place-section ul {
+  padding-left: 10px;
+}
+.place-section ul li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 0;
+}
+.place-section video {
+  width: 100%;
+}
+.place-section .btn {
+  margin-top: 16px;
+}
 /* Newsletter Section  */
 
 /* Footer Content  */
