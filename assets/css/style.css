@@ -290,9 +290,8 @@ nav ul a {
 .deals-section .deals:nth-child(odd) {
   background-image: url("../img/Group\ 39.png");
   display: flex;
-  justify-content: end ;
+  justify-content: end;
 }
-
 .deals-section .card {
   padding: 50px 50px;
   max-width: 579px;
@@ -345,7 +344,10 @@ nav ul a {
   padding: 16px 0 24px 0;
   display: block;
 }
-
+.deals-section .btn {
+  margin: 45px auto 0;
+  display: block;
+}
 /* Place Section */
 
 /* Newsletter Section  */
