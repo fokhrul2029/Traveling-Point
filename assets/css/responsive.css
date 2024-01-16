@@ -24,7 +24,28 @@
   .banner form .btn {
     width: 100%;
   }
+  /* Popular Section Styles  */
+  .popular {
+    flex-direction: column;
+  }
+  .popular .img {
+    flex-basis: auto;
+  }
+  /* Destination Section Styles  */
+  .destination {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .destination div:nth-child(1) {
+    grid-column: span 2 !important;
+  }
+  .destination div {
+    grid-column: span 1 !important;
+  }
 }
 /* Responsive Styles for Small Device  */
 @media screen and (max-width: 600px) {
+  /* Destination Styles  */
+  .destination div {
+    grid-column: span 2 !important;
+  }
 }
