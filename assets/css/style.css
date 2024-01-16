@@ -193,7 +193,18 @@ nav ul a {
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 15px;
 }
-
+.destination div {
+  position: relative;
+}
+.destination strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
 .destination div img {
   height: 100%;
 }
