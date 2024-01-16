@@ -1,13 +1,30 @@
 /* Responsive styles for medium Device  */
 @media screen and (max-width: 992px) {
+  /* Navigation Styles  */
   nav ul {
-    display: none ;
+    display: none;
   }
   nav i {
-    display: block ;
+    display: block;
+  }
+  /* Banner Styles  */
+  .banner {
+    gap: 10px;
+  }
+  .banner h1 {
+    font-size: 22px;
+  }
+  .banner form {
+    flex-direction: column;
+    gap: 14px;
+    max-width: 287px;
+  }
+  .banner form select,
+  .banner form input[type="text"],
+  .banner form .btn {
+    width: 100%;
   }
 }
 /* Responsive Styles for Small Device  */
 @media screen and (max-width: 600px) {
-  
 }
